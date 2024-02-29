@@ -1,0 +1,8 @@
+CREATE TABLE sellorders (
+id SERIAL PRIMARY KEY ,
+name VARCHAR(500) NOT NULL ,
+phone VARCHAR(500) NOT NULL ,
+house_details VARCHAR(500) NOT NULL ,
+address_details VARCHAR(500) NOT NULL ,
+expected_price INT  
+)
